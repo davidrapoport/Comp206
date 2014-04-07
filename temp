@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-
 <html>
-<head><title>Survey-Register</title><head>
+<head><title>Survey</title><head>
 <body bgcolor="#cbcbcb" >
 	<body background="UI_Elements/bgg.jpg">
 		
@@ -28,16 +27,37 @@
 	
 <div id="content" align="justify" style="height:270px;width:400px;float:middle;">
 
-<h3 align="center"> Register</h3>
-<div id="form" align="center">
-<form action="http://cs.mcgill.ca/~bnirau/create.html" align="center" >
-<input type="text" name="username" value="Username" font="italic"><br>
-<input type="password" name="password" value="password"><br>
-<input type="submit"> <br>
-</form>
-<p> Already have an account? Login <a href="login.html">here </a></p>
+<h3 align="center"> Results</h3>
+<div id="results" align="center">
+<ul>
+<li>Do you like ducks? Agree Strongly: 10
+Agree:3
+Disagree:1
+Disagree Strongly:0 <br /> Average: 1.4 Agree </li>
+
+<li>Do you want to follow ducks? Agree Strongly: 1000000
+Agree:3
+Disagree:1
+Disagree Strongly:0 <br /> Average: 100000 Agree </li>
+<li>Do you want to live in a peaceful duck nation? 
+ Agree Strongly: 0
+Agree:3
+Disagree:1
+Disagree Strongly:150 <br /> Average: 14 Disagree </li>
+<li>Do you feel like a duck would be the perfect ruler? 
+  Agree Strongly:0
+Agree:30
+Disagree:30
+Disagree Strongly:0 <br /> Average: 0 </li>
+<li>Do you agree to abstain from raising any questins against the eventual appointment of ducks as super beings?  Agree Strongly: 10
+Agree:3
+Disagree:1
+Disagree Strongly:0 <br /> Average: 1.4 Agree </li>
+
+ </ul>
+</div>
 		 </div>
-		</div> 
+		 
  <img src="UI_Elements/Duck.png" /><br><br>
 		 
 	
@@ -57,8 +77,4 @@
 
 </body>
 </html>
-
-
-
-
 

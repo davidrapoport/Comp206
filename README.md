@@ -1,7 +1,11 @@
 Comp 206 Web design project 
 
-URL for login/register cs.mcgill.cs/~drapop/login.html
-or register.html
+URL for welcome: http://cs.mcgill.ca/~kqaise/206/welcome.html
 
-URL for createSurvery cs.mcgill.ca/~kqaise/206/create.
+URL for login: http://cs.mcgill.cs/~drapop/login.html
+
+URL for register: http://cs.mcgill.ca/~drapop/register.html
+
+URL for createSurvery: http://cs.mcgill.ca/~bnirau/create.html
+
 

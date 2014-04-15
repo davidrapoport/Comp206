@@ -1,3 +1,5 @@
+//David Rapoport
+//260498767
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -43,7 +45,7 @@ int main(){
 	}
 	passwd[i]=0;
 	if(contains(strdup(user),strdup(passwd))){ //if the SSV contains this username passwd combo
-		char *html = "<!DOCTYPE html>\n<html>\n<head><title>Survey-Login</title><head>\n<body bgcolor=\"#cbcbcb\" >\n<body background=\"../UI_Elements/bgg.jpg\">\n<img src=\"../UI_Elements/bar.png\" style=\"position: absolute; top: 0; left: 0;width:100%;height:9px;\" /><br><br>\n<center><img src=\"../UI_Elements/Title.png\" align=\"middle\" /><center/>\n<p>\n <div id=\"content\" align=\"justify\" style=\"height:270px;width:400px;float:middle;\">\n<h3 align=\"center\"> You have succesfully logged in</h3>\n<div align=\"center\"> <ul><li><a href=\"http://cs.mcgill.ca/~kqaise/206/welcome.html\"> Home </a> </li> <li> <a href=\"http://cs.mcgill.ca/~bnirau/take.html\">Take a survey </a> </li><li><a href=\"http://cs.mcgill.ca/~bnirau/create.html\">Make a survey</a></li></ul></div>\n</div> \n<img src=\"../UI_Elements/Duck.png\" /><br><br>\n<br><br>\n<footer>\n<div id=\"content\" style=\"height:110px;width:100%;float:middle;background-color:#454545;\">\n<br>\n<font face=\"verdana\" color=\"white\" >Copyright 2014<br> Kayhan Qaiser <br> David Rappoport <br> Bimochan Niraula <br><br> Contact: <a href=\"mailto:bill@yolo.com\" style=\"text-decoration:none\" style=\"color:rgb(0,0,0)\"><font color=\"ffffff\">bill@yolo.com</a>\n</font> \n</div>\n</footer> </body>\n</html>";
+		char *html = "<!DOCTYPE html>\n<html>\n<head><title>Survey-Login</title><head>\n<body bgcolor=\"#cbcbcb\" >\n<body background=\"../UI_Elements/bgg.jpg\">\n<img src=\"../UI_Elements/bar.png\" style=\"position: absolute; top: 0; left: 0;width:100%;height:9px;\" /><br><br>\n<center><img src=\"../UI_Elements/Title.png\" align=\"middle\" /><center/>\n<p>\n <div id=\"content\" align=\"justify\" style=\"height:270px;width:400px;float:middle;\">\n<h3 align=\"center\"> You have succesfully logged in</h3>\n<div align=\"center\"> <ul><li><a href=\"http://cs.mcgill.ca/~kqaise/206/welcome.html\"> Home </a> </li> <li> <a href=\"http://cs.mcgill.ca/~kqaise/206/survey.py\">Take a survey </a> </li><li><a href=\"http://cs.mcgill.ca/~bnirau/create.html\">Make a survey</a></li></ul></div>\n</div> \n<img src=\"../UI_Elements/Duck.png\" /><br><br>\n<br><br>\n<footer>\n<div id=\"content\" style=\"height:110px;width:100%;float:middle;background-color:#454545;\">\n<br>\n<font face=\"verdana\" color=\"white\" >Copyright 2014<br> Kayhan Qaiser <br> David Rappoport <br> Bimochan Niraula <br><br> Contact: <a href=\"mailto:bill@yolo.com\" style=\"text-decoration:none\" style=\"color:rgb(0,0,0)\"><font color=\"ffffff\">bill@yolo.com</a>\n</font> \n</div>\n</footer> </body>\n</html>";
 		printf("%s",html);
 	}
 	else{
